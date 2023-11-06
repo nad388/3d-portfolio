@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import Three from './Three'
 import Carousel from './carousel/Carousel'
 
 const Home: FC = () => {
@@ -9,7 +8,7 @@ const Home: FC = () => {
 				Twin Peaks. Red room.
 			</h1>
 			<Carousel />
-			<Three />
+			{/* <Three /> */}
 		</div>
 	)
 }
